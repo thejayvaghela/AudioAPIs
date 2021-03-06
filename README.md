@@ -1,4 +1,18 @@
-THE TASK DEFINITION:
+#The URLs:
+
+Create: http://127.0.0.1:8000/createaudioapi/ (Both GET and POST methods are allowed)
+
+Delete: http://127.0.0.1:8000/deleteaudioapi/<audioFileType>/<audioFileID>/ (Only DELETE method allowed)
+
+Update: http://127.0.0.1:8000/updateaudioapi/<audioFileType>/<audioFileID>/	(Only PUT method allowed)
+
+GET: http://127.0.0.1:8000/getaudioapi/<audioFileType>/ (To GET all the audio files of that type)
+
+GET: http://127.0.0.1:8000/getaudioapi/<audioFileType>/<audioFileID>/ (To GET the specific audio file of that type)
+
+
+#THE TASK DEFINITION:
+
 Write a Django / Flask / FastAPI Web API that simulates the behavior of an audio file server while using a MongoDB / SQL database.
 
 Requirements: You have one of three audio files which structures are defined below
